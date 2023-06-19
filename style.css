@@ -16,7 +16,7 @@ body {
     background-color: #282C35;
 }
 
-.animal-card {
+.card-container {
     width: 80%;
     margin: 100px auto 50px;
     display: grid;
@@ -68,7 +68,7 @@ body {
 {
     width: 40px;
     height: 40px;
-    filter: drop-shadow(2px 2px 2px white);
+    /* filter: drop-shadow(2px 2px 2px white); */
 }
 
 @media screen and (max-width:500px) {
