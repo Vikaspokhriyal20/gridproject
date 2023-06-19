@@ -16,7 +16,7 @@ body {
     background-color: #282C35;
 }
 
-.card-container {
+.animal-card {
     width: 80%;
     margin: 100px auto 50px;
     display: grid;
@@ -43,8 +43,41 @@ body {
     filter: drop-shadow(2px 2px 2px white);
 }
 
+
+.mix-card
+{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: black;
+    height: 600px;
+    align-items: center;
+}
+
+.card-item {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.card-item img
+{
+    width: 40px;
+    height: 40px;
+    filter: drop-shadow(2px 2px 2px white);
+}
+
 @media screen and (max-width:500px) {
-    .card-container {
+    .animal-card {
+        grid-template-columns: 1fr 1fr;
+    }
+    .mix-card
+    {
         grid-template-columns: 1fr 1fr;
     }
 }
+
